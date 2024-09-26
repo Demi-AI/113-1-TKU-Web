@@ -1,0 +1,134 @@
+/* 全局設置 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* 淺灰背景 */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 標題樣式 */
+h1, h2, h3 {
+    color: #2c3e50; /* 深色 */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center; /* 置中 */
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center; /* 置中 */
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center; /* 置中 */
+}
+
+/* 連結樣式 */
+a {
+    color: #2980b9; /* 藍色 */
+    text-decoration: none;
+    transition: color 0.3s; /* 過渡效果 */
+}
+
+a:hover {
+    color: #e67e22; /* 橙色懸停 */
+    text-decoration: underline;
+}
+
+/* 表格樣式 */
+table {
+    width: 20%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 6px;
+    border: 2px solid #959ca0;
+    text-align: center; /* 置中 */
+}
+
+th {
+    background-color: #8e9396; 
+    color: white;
+}
+
+/* 有序列表樣式 */
+ol {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 表單樣式 */
+form {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* 確保有適當的內邊距 */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* 過渡效果 */
+}
+
+input[type="submit"]:hover {
+    background-color: #1a6692; /* 深藍色懸停 */
+}
+
+/* 自我介紹區塊 */
+div {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 圖片樣式 */
+img {
+    display: block;
+    max-width: 30%; /* 確保圖片不超出邊界 */
+    height: auto;
+    margin: 20px auto; /* 置中 */
+    border-radius: 10px;
+}
+
+/* 音樂播放區塊 */
+blockquote {
+    border-left: 4px solid #2980b9; /* 藍色邊框 */
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
